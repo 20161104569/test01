@@ -8,8 +8,16 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main()
+{
+    int i,sum;
+    sum=0;
+    i=1;
+    while(i<=100)
+    {
+        sum=sum+i;
+        i=i+1;
+    }
+    printf("1+2+3+....+100=%d",sum);
     return 0;
 }
